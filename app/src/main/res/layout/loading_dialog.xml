@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:background="@drawable/cicle_back_login"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_height="150dp">
+    <com.huami.download.view.DilatingDotsProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:radius="5dp"
+        android:color="#8C2323"
+        app:dd_numDots="10"
+        app:dd_scaleMultiplier="1.5"
+        app:dd_animationDuration="500"
+        app:dd_horizontalSpacing="4dp"
+        />
+    <TextView
+        android:id="@+id/tv_down_progress"
+        android:layout_width="match_parent"
+        android:textColor="@color/transparent_black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="下载进度：0%"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

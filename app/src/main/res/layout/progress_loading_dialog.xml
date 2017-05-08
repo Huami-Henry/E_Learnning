@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <com.huami.download.view.ColorArcProgressBar
+        android:id="@+id/color_pro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:is_need_content="true"
+        app:max_value="100"
+        app:back_width="3dp"
+        app:front_width="5dp"
+        app:front_color1="#aa11aaff"
+        app:total_engle="270"
+        app:is_need_unit="true"
+        app:string_unit="下载进度%"
+        app:back_color="@color/theme_color"
+        />
+</RelativeLayout>
